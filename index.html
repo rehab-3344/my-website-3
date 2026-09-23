@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>glassy login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-contanier">
+        <h2>login</h2>
+        <form id="loginform">
+            <input type="text" id="username" placeholder="username" required>
+            <input type="password" id="password" placeholder="password" required>
+            <button type="submit">login</button>
+        </form>
+        <p id="errormessage" class="error"></p>
+    </div>
+    <div id="successmessage" class="success">
+        <h2>welcome</h2>
+        <p>you have successfully logged in</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
